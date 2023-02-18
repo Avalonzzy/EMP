@@ -9,7 +9,23 @@ $(function(){
     $(".sbAd").eq(7).css("margin-left","0");
     $(".table3 li").eq(4).css("border-right","none");
     $(".col-links").eq(0).css("border-left","100px");
-    
+    $(".fixed li").eq(5).css("margin-top","20px");
+    $(".fixed li").eq(5).css("border-bottom","1px solid #616161");
+    $(".fixed li").eq(4).css("border-bottom","1px solid #616161");
+    $(".fixed li h5").eq(4).css("left","17px");
+    $(".fixed li h5").eq(5).css("left","17px");
+    $(".fixed li").hover(function () {
+            // over
+            let index = $(this).index();
+            $(".fixed li h5").eq(index).css("color","#ff6700");
+        }, function () {
+            // out
+            let index = $(this).index();
+            $(".fixed li h5").eq(index).css("color","#000");
+
+        }
+    );
+
     $(".box2Top a").hover(function () {
             // over
             $(this).children("img").attr("src","../Pictures/进入箭头小选中.png");

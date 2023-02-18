@@ -167,7 +167,6 @@ input::-ms-clear {
   background-size: cover;
 }
 .box2 {
-  height: 5845px;
   background-color: #eeeeee;
   margin: 0 auto;
   margin-top: 30px;
@@ -175,12 +174,13 @@ input::-ms-clear {
   overflow: hidden;
 }
 .box21 {
-    height: 5835px;
     width: 1226px;
     position: relative;
     background-color: #eeeeee;
     margin: 0 auto;
     margin-top: 30px;
+  overflow: hidden;
+
   }
 .box2Children {
   width: 1226px;
@@ -219,6 +219,7 @@ input::-ms-clear {
   line-height: 20px;
   right: 0;
   color: #333;
+  margin-top: 10px;
 }
 .box2Top a:hover {
   color: #ff6700;
@@ -530,7 +531,39 @@ input::-ms-clear {
     border: #ff6700 1px solid;
     line-height: 31px;
 }
+.tel a:hover {
+  background-color: #ff6700;
+}
 .tel a p{
     font-size: small;
     color: #ff6700;
+}
+.tel a p:hover {
+  color: white;
+
+}
+.fixed {
+  position: fixed;
+  width: 100px;
+  right: 0;
+  top: 200px;
+}
+.fixed li{
+  display: block;
+  height: 90px;
+  width: 82px;
+  background-color: white;
+  border: 1px solid #616161;
+  border-bottom: 0;
+  position: relative;
+}
+
+.fixed li h5{
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: medium;
+  font-weight: 300;
+  color: #000;
 }
