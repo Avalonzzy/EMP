@@ -90,3 +90,37 @@ body {
     margin-top: -274px;
     height: 284px;
 }
+.price {
+    width: 220px;
+    height: 30px;
+    background-color: antiquewhite;
+    border: 1px solid gray;
+}
+.price span{
+    display: block;
+    width: 120px;
+    float: left;
+    line-height: 30px;
+    background-color: orange;
+    text-align: center;
+    color:white;
+}
+.price i {
+    display: block;
+    float: right;
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid transparent;
+	border-right: 20px solid white;
+    border-bottom: 0px solid transparent;
+    border-left: 0px solid transparent;
+}
+.price #original-price{
+    display: block;
+    width: 100px;
+    float: right;
+    line-height: 30px;
+    background-color: white;
+    color: #454545;
+    text-decoration: line-through;
+}
