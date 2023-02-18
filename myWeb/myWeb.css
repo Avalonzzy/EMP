@@ -1,0 +1,92 @@
+h2,#presentTime {
+    color:orange;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* html {
+    height: 100%;
+    width: 100%;
+} */
+a {
+    color: royalblue;
+    text-decoration: none;
+}
+.head1 {
+    width: 80px;
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    background-color: rgb(57, 55, 55);
+    color: aliceblue;
+    line-height: 30px;
+    text-align: center;
+    border: 2px solid blueviolet;
+
+}
+.head1:hover {
+    background-color: grey;
+}
+.backGroundImg {
+    margin-right: 20px;
+    height: 20px;
+    width: 50px;
+    border: 2px solid lightBlue;
+}
+
+ul{
+    list-style: none;
+}
+body {
+    
+    background-image: url(Pictures/BG1.jpg);
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
+}
+#table1>li{
+    display: inline-block;
+    list-style: none;
+}
+
+#table2 ul {
+    /* 将下拉ul表初始状态设置为隐藏 */
+    display: none;
+    position: absolute;
+    margin-left: -40px;
+}
+#table2>li {
+    position: relative;
+    display: inline-block;
+    margin: -3px;
+}
+/* 在js中已经设置 */
+/* video {
+    display: inline-block;
+    margin-top: 100px;
+    height: 160px;
+} */
+#table3 li{
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    background-color: aqua;
+    text-align: center;
+    line-height: 40px;
+}
+#table4 {
+    display: inline-block;
+}
+#table4 li{
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    /* background-color: wheat; */
+    border: 1px solid gray;
+}
+#show {
+    display: inline-block;
+}
+.showClothes {
+    position: absolute;
+    margin-top: -274px;
+    height: 284px;
+}
