@@ -543,6 +543,7 @@ input::-ms-clear {
 
 }
 .fixed {
+  z-index: 7;
   position: fixed;
   width: 100px;
   right: 0;
@@ -567,3 +568,4 @@ input::-ms-clear {
   font-weight: 300;
   color: #000;
 }
+
