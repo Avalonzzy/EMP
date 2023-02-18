@@ -197,7 +197,6 @@ input::-ms-clear {
   position: relative;
 }
 .box2Top h2 {
-  margin-top: ;
   display: block;
   position: absolute;
   left: 0;
@@ -378,7 +377,7 @@ input::-ms-clear {
 }
 #quickChoose li {
   float: left;
-  display: inline-block;
+  display: block;
   height: 85px;
   width: 70px;
   border-left: 1px gray solid;
